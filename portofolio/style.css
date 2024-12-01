@@ -1,0 +1,132 @@
+* {
+    font-family: Mulish,sans-serif;
+}
+body {
+    margin: 0%;
+}
+.nav-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 100px;
+    background-color: rgb(243, 207, 175, 0.5);
+}
+.nav-links { 
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 8px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.nav-brand {
+    font-family: Parkinsans;
+    font-weight: 700;
+    font-size: 24px 100px;
+    color: burlywood;
+}
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-heading {
+    font-size: 44px;
+    font-weight: 700;
+    width: 700px;
+    text-align: center;
+    color: rgb(149, 114, 84);
+}
+.title-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+    color: burlywood;
+}
+.work-first {
+font-size: 36px;
+font-weight: 400;
+width: 1500px;
+text-align: center;
+color: burlywood;
+}
+.work-section {
+    font-size: 16%px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    width: 1500px;
+    text-align: center;
+    color: rgb(149, 114, 84);
+    }
+.card-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 168px;
+    border-radius: 16px 16px 0px 0px;
+    color: burlywood;
+    }
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    width: 1500px;
+}
+.social-links {
+
+	list-style: none;
+  padding-top: 20px;
+  display: flex;
+  
+	}
+.social-links li {
+    letter-spacing: 25px;
+    margin: 0;
+    font-size: 70px;
+    flex: auto;
+    padding-bottom: 20px;
+   
+}
+.social-links li a {
+  color: burlywood;
+}
+.social-links li a:hover{
+    color: peachpuff;
+}
+.heading {
+    font-weight: normal;
+    color: burlywood;
+  }
+.message-wrapper {
+    border-bottom: 1px solid ;
+    color: burlywood;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  .social li {
+	font-size: 120px;
+    letter-spacing: 50px;
+    flex: auto;
+    display: inline-block;
+}
+.social {
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+    
+}
